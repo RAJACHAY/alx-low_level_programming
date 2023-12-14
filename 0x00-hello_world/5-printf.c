@@ -2,7 +2,7 @@
 
 /**
  * main  - Entry function
- * Return : return 0 after success
+ * Return: return 0 after success
  *
  *
  *
