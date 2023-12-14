@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 /**
- *main  - entry function
- *Return : return 0 after success
+ * main  - Entry function
+ * Return : return 0 after success
  *
  *
  *
