@@ -1,8 +1,7 @@
 #include<stdio.h>
 
-/*
- *
- * main - principal function
+/**
+ * main - Principal function prrint with put
  * Return: return 0 after execute
  */
 int main(void)
