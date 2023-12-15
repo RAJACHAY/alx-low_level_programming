@@ -7,10 +7,17 @@
 
 int main(void)
 {
-	printf("Size of a char: sifeof(char) byte(s)");
-	print("Size of an int: 4 byte(s)");
-	print("Size of a long int: sizeof(long int) byte(s)");
-	print("Size of a long long int: sizeof(long long byte(s)");
-	print("Size of a float: sizeof(float) byte(s)");
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
+
+
+	printf("Size of a char:%lu byte(s)\n", sifeof(a));
+	printf("Size of an int:%lu  byte(s)\n", sifeof(b));
+	printf("Size of a long int:%lu byte(s)\n", sifeof(c));
+	printf("Size of a long long int:%lu byte(s)\n", sifeof(d));
+	printf("Size of a float:%lu byte(s)\n", sifeof(e));
 	return (0);
 }
