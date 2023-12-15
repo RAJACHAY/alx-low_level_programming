@@ -1,17 +1,33 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <time.h>
 
 /**
- *  main - Print char
- *  Return: retun afet success
+ * main - Main function
+ * Return: return 0
  */
 
 int main(void)
 {
-	char c;
+	int n;
 
-	for (c = 'a'; c <= 'z'; c++)
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	n = n % 10;
+	if (n  > 5)
 	{
-		putchar(c);
+		printf("Last digit of n is %d and is greater than 5\n", n);
+	}
+	else
+	{
+		if (n == 0)
+		{
+			printf("Last digit of n is %d and is 0\n", n);
+		}
+		else
+		{
+			printf("Last digit of n is %d and is less than 6 and not 0\n", n);
+		}
 	}
 	return (0);
 }
