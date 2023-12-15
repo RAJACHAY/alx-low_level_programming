@@ -1,4 +1,4 @@
-O#include <stdio.h>
+#include <stdio.h>
 
 /**
  *  main - Print char
