@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * islower - function detect lower
+ * _islower - function detect lower
  *@c: char to check
  *Return: return if lower or not
  */
