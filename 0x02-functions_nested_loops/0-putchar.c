@@ -1,11 +1,15 @@
 #include "main.h"
 
 /**
- * _putchar: Function return char
- * @c:char entred
+ * _putchar - Function return char
+ *
+ * Description: 'print putchart'
+ * @c: char entred
+ *
+ * Return: retorn 0
  */
 
-int _putchar(char* c);
+int _putchar(char *c);
 {
 	_putchar(_);
 	_putchar(p);
@@ -17,6 +21,6 @@ int _putchar(char* c);
 	_putchar(r);
 	_putchar(t);
 	_putchar('\n');
-	
+
 	return (0);
 }
