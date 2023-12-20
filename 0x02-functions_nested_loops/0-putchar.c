@@ -6,7 +6,7 @@
  *
  * Return: On success 1.
  */
-int _putchar(char c);
+int main(void);
 {
 	_putchar(_);
 	_putchar(p);
