@@ -2,8 +2,6 @@
 
 /**
  * main - writes putchar
- * @c: The character to print
- *
  * Return: On success 1.
  */
 int main(void)
