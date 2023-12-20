@@ -19,5 +19,4 @@ int _islower(int c)
 		else
 			_putchar('1');
 	}
-
 }
