@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /*
- * *_strdup - function
+ * _strdup - function
  * @str: lll
  *
  * Return: return pointer
