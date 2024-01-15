@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * _strdup - function
+/**
+ * _strdup - duplicate to new memory space location
  * @str: lll
  *
  * Return: return pointer
