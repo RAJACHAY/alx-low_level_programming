@@ -10,22 +10,44 @@
  */
 
 char *_strdup(char *str)
+		
 {
+		
+	char *aaa;
+		
+	int i, r = 0;
+		
 
-	char *arr;
-	int i = 0;
-	int r;
-
-	if  (str == NULL)
+		
+	if (str == NULL)
+		
 		return (NULL);
-
+		
+	i = 0;
+		
 	while (str[i] != '\0')
+		
 		i++;
+		
 
-	arr = malloc(sizeof(char) * (i + 1));
+		
+	aaa = malloc(sizeof(char) * (i + 1));
+		
 
-	for (r = 0; r < i; r++)
-		arr[r] = str[r];
+		
+	if (aaa == NULL)
+		
+		return (NULL);
+		
 
-	return (arr);
+		
+	for (r = 0; str[r]; r++)
+		
+		aaa[r] = str[r];
+		
+
+		
+	return (aaa);
+		
 }
+
