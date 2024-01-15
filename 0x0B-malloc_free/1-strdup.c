@@ -26,5 +26,6 @@ char *_strdup(char *str)
 
 	for (r = 0; r < i; r++)
 		arr[r] = str[r];
+
 	return (arr);
 }
