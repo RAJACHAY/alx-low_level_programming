@@ -29,11 +29,11 @@ int binary_search(int *array, size_t size, int value)
 		i = left + (right - left) / 2;
 		if (array[i] == value)
 			return (i);
-		if value > array[i])
+		if (value >= array[i])
 			left = i + 1;
 		else
 			right = i - 1;
 	}
 
 	return (-1);
-}I
+}
